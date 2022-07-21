@@ -1,0 +1,94 @@
+
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css";
+
+
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-color: #000016;  
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+
+
+}
+.login-box{
+    /* background-color: #f9004d; */
+    
+    margin: 80px;
+    width: 450px;
+    height: 550px;
+    border: solid #fff 1px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    box-shadow: 0 0 10px 10px #fff;  
+
+
+}
+.login-box h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:monospace;
+   color:#f9004d;
+}
+.input-1{
+   
+   text-align: center;
+   margin-left: 60px;
+    width: 70%;
+    height: 10px;
+    margin:20px;
+    padding: 10px;
+   color: #fff;
+    background-color: #000016; 
+    transition: 0.7s ease;
+}
+.input-1:hover{
+    transform: scale(1.1);
+}
+
+.indice-1{
+    margin:40px;
+    color:#f9004d;
+    text-align: center;
+
+}
+.indice-2{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+   
+
+}
+#sign{
+    text-decoration: none;
+}
+.input-3{
+
+    margin-left: 150px;
+    width:100px ;
+    height:40px ;
+    border-radius: 10px;
+    border: none;
+   
+}
+.input-3:hover{ 
+    transform: scale(1.1);
+    background-color:#f9004d;
+}
+    
+
+@media screen and (max-width:600px){
+    .login-box{
+       
+        margin: 60px;
+        width: 350px;
+        height: 500px;
+        border: solid #fff 1px;
+        border-bottom-left-radius: 70px;
+        border-top-right-radius: 70px;
+        box-shadow: 0 0 10px 10px #fff;  
+}
+    }
