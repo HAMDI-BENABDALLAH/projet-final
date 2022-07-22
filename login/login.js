@@ -17,7 +17,7 @@ function loginbox (e) {
     console.log(password)
     alert(`Wrong password `)
    } else{
-    window.location.replace('index.html')
+    window.location.replace('../home/index.html')
    }
    }
 
